@@ -2,7 +2,7 @@ import { Flame, Eye, Clock, FileCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Thermography = () => {
-  const thermographyImage = "/images/work-3.jpg";
+  const thermographyImage = "/images/inspection.jpg";
   const benefits = [
     {
       icon: Flame,
