@@ -1,8 +1,8 @@
 import { Shield, FileCheck, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
-  const heroBg = "/images/hero-lightning.jpg";
   return (
     <section id="hero" className="relative min-h-[90vh] flex items-center">
       {/* Background Image with Overlay */}

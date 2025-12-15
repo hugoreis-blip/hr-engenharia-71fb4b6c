@@ -53,38 +53,26 @@ const About = () => {
             </div>
           </div>
 
-          {/* Team Image and Stats */}
+          {/* Stats Cards */}
           <div className="space-y-6">
-            {/* Team Photo */}
-            <div className="relative rounded-xl overflow-hidden shadow-2xl">
-              <img 
-                src="/images/team.jpg" 
-                alt="Equipe HR Engenharia Elétrica" 
-                className="w-full h-auto object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy-dark/90 to-transparent p-6">
-                <p className="text-white font-heading font-bold text-lg">Nossa Equipe</p>
-                <p className="text-white/80 text-sm">Profissionais qualificados e equipados</p>
-              </div>
-            </div>
-
-            {/* Stats Row */}
-            <div className="grid grid-cols-3 gap-4">
-              {stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="bg-card rounded-xl p-4 shadow-card border border-border/50 text-center"
-                >
-                  <stat.icon className="w-6 h-6 text-primary mx-auto mb-2" />
-                  <p className="text-2xl font-heading font-bold text-primary">
+            {stats.map((stat, index) => (
+              <div
+                key={index}
+                className="bg-card rounded-xl p-6 shadow-card card-hover border border-border/50 flex items-center gap-6"
+              >
+                <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <stat.icon className="w-8 h-8 text-primary" />
+                </div>
+                <div>
+                  <p className="text-4xl font-heading font-bold text-primary">
                     {stat.value}
                   </p>
-                  <p className="text-muted-foreground text-xs font-medium">
+                  <p className="text-muted-foreground font-medium">
                     {stat.label}
                   </p>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
 
             {/* Legal Notice */}
             <div className="bg-accent/10 border border-accent/30 rounded-xl p-6">
