@@ -1,7 +1,7 @@
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const Footer = () => {
+  const logo = "/images/logo.png";
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
