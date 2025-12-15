@@ -2,7 +2,7 @@ import { Plug, Gauge, DollarSign, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const EVChargers = () => {
-  const evChargerImage = "/images/work-2.jpg";
+  const evChargerImage = "/images/ev-charger.jpg";
   const features = [
     {
       icon: Plug,
