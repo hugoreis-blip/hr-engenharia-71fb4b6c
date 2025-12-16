@@ -43,11 +43,8 @@ const Hero = () => {
             Curitiba e Matinhos.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <Button variant="hero" size="xl" asChild>
-              <a href="#contato">Solicitar Orçamento</a>
-            </Button>
+          {/* CTA Button */}
+          <div className="mb-12 animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <Button variant="whatsapp" size="xl" asChild>
               <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
                 Falar no WhatsApp
