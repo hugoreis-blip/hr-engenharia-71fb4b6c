@@ -74,8 +74,10 @@ const SPDA = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" asChild>
-                <a href="#contato">Agendar Visita Técnica</a>
+              <Button variant="whatsapp" size="lg" asChild>
+                <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
+                  Agendar Visita Técnica
+                </a>
               </Button>
               <Button variant="outline-light" size="lg" asChild>
                 <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">

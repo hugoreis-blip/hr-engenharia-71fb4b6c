@@ -43,14 +43,6 @@ const Hero = () => {
             Curitiba e Matinhos.
           </p>
 
-          {/* CTA Button */}
-          <div className="mb-12 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <Button variant="whatsapp" size="xl" asChild>
-              <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
-                Falar no WhatsApp
-              </a>
-            </Button>
-          </div>
 
           {/* Trust Badges */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 animate-slide-up" style={{ animationDelay: "0.3s" }}>

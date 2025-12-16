@@ -102,8 +102,10 @@ const Services = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <Button variant="gold" size="lg" asChild>
-            <a href="#contato">Solicitar Orçamento</a>
+          <Button variant="whatsapp" size="lg" asChild>
+            <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
+              Falar no WhatsApp
+            </a>
           </Button>
         </div>
       </div>
