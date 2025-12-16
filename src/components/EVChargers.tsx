@@ -69,8 +69,10 @@ const EVChargers = () => {
               ))}
             </div>
 
-            <Button variant="gold" size="lg" asChild>
-              <a href="#contato">Consultar Projeto</a>
+            <Button variant="whatsapp" size="lg" asChild>
+              <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
+                Consultar Projeto
+              </a>
             </Button>
           </div>
 

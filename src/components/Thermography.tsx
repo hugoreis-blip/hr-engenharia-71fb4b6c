@@ -82,8 +82,10 @@ const Thermography = () => {
               ))}
             </div>
 
-            <Button variant="gold" size="lg" asChild>
-              <a href="#contato">Solicitar Inspeção</a>
+            <Button variant="whatsapp" size="lg" asChild>
+              <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
+                Solicitar Inspeção
+              </a>
             </Button>
           </div>
         </div>

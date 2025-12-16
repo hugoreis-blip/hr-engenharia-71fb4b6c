@@ -53,8 +53,8 @@ const ContactForm = () => {
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             Entre em Contato
           </span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mt-2 mb-6">
-            Fale <span className="text-accent">Conosco</span>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mt-2 mb-6 text-accent">
+            Fale Conosco
           </h2>
           <p className="text-primary-foreground/80 text-lg leading-relaxed mb-8">
             Entre em contato diretamente conosco. Nossa equipe está pronta para atendê-lo.
@@ -70,8 +70,8 @@ const ContactForm = () => {
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
               >
-                <div className="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-accent transition-colors">
-                  <item.icon className="w-5 h-5 text-accent group-hover:text-accent-foreground transition-colors" />
+                <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center flex-shrink-0">
+                  <item.icon className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
                   <p className="text-sm text-primary-foreground/60">
