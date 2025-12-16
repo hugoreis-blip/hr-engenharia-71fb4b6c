@@ -92,7 +92,7 @@ const ContactForm = () => {
     {
       icon: Clock,
       label: "Horário",
-      value: "Seg a Sex: 8h às 18h",
+      value: "Seg a Qui: 7h30 às 17h30 | Sex: 7h30 às 16h30",
       href: "#",
     },
   ];

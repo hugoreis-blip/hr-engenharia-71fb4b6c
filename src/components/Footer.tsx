@@ -99,9 +99,10 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
-                <span className="text-primary-foreground/70 text-sm">
-                  Seg a Sex: 8h às 18h
-                </span>
+                <div className="text-primary-foreground/70 text-sm">
+                  <p>Seg a Qui: 7h30 às 17h30</p>
+                  <p>Sex: 7h30 às 16h30</p>
+                </div>
               </li>
             </ul>
           </div>
