@@ -47,7 +47,7 @@ const Thermography = () => {
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Termografia
             </span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-6">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-6">
               Inspeção Térmica:{" "}
               <span className="text-primary">Previna Acidentes</span>
             </h2>

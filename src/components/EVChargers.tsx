@@ -35,7 +35,7 @@ const EVChargers = () => {
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Carregadores Elétricos
             </span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-6">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-6">
               Infraestrutura para{" "}
               <span className="text-primary">Veículos Elétricos</span>
             </h2>
