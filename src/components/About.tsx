@@ -25,9 +25,8 @@ const About = () => {
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Sobre a Empresa
             </span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-6">
-              Especialistas em Engenharia Elétrica para{" "}
-              <span className="text-primary">Condomínios</span>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-6">
+              Especialistas em Engenharia Elétrica para Condomínios
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               A <strong className="text-foreground">HR Engenharia Elétrica</strong> atua há mais de 15 anos

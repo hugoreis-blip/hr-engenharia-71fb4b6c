@@ -92,7 +92,7 @@ const SPDA = () => {
             <img
               src={spdaImage}
               alt="Inspeção de SPDA"
-              className="rounded-xl shadow-2xl w-full object-cover"
+              className="rounded-xl shadow-2xl w-full max-w-md mx-auto object-cover"
             />
             <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground rounded-lg px-6 py-3 shadow-lg">
               <p className="font-heading font-bold text-lg">NBR 5419</p>

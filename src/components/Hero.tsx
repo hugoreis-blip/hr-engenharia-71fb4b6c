@@ -10,11 +10,10 @@ const Hero = () => {
         <img
           src={heroBg}
           alt="Condomínios em Curitiba"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
         <div
-          className="absolute inset-0"
-          style={{ background: "var(--gradient-hero)" }}
+          className="absolute inset-0 bg-navy-dark/75"
         />
       </div>
 
