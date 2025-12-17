@@ -70,9 +70,8 @@ const Services = () => {
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             Nossos Serviços
           </span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-4">
-            Soluções Completas em{" "}
-            <span className="text-primary">Engenharia Elétrica</span>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
+            Soluções Completas em Engenharia Elétrica
           </h2>
           <p className="text-muted-foreground text-lg">
             Oferecemos todos os serviços necessários para manter seu condomínio

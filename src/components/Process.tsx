@@ -48,8 +48,8 @@ const Process = () => {
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             Como Funciona
           </span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-4">
-            Nosso <span className="text-primary">Processo de Trabalho</span>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
+            Nosso Processo de Trabalho
           </h2>
           <p className="text-muted-foreground text-lg">
             Metodologia transparente e organizada para garantir a melhor

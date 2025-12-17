@@ -83,8 +83,8 @@ const Testimonials = () => {
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
             Avaliações Reais
           </span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mt-2 mb-4">
-            O Que Nossos <span className="text-primary">Clientes Dizem</span>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
+            O Que Nossos Clientes Dizem
           </h2>
           <p className="text-muted-foreground text-lg">
             A satisfação dos nossos clientes é o nosso maior reconhecimento.
@@ -92,20 +92,20 @@ const Testimonials = () => {
         </div>
 
         {/* NPS Score Card */}
-        <div className="bg-gradient-to-r from-primary to-primary-glow rounded-2xl p-8 mb-12 text-center shadow-elegant">
+        <div className="bg-primary rounded-2xl p-8 mb-12 text-center shadow-lg">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
             <Award className="w-16 h-16 text-accent" />
             <div>
-              <p className="text-primary-foreground/80 text-sm uppercase tracking-wider mb-1">
+              <p className="text-primary-foreground text-sm uppercase tracking-wider mb-1 font-medium">
                 Nota Média de Recomendação
               </p>
               <div className="flex items-baseline justify-center gap-2">
                 <span className="text-6xl font-heading font-bold text-primary-foreground">
                   {averageRating}
                 </span>
-                <span className="text-2xl text-primary-foreground/70">/10</span>
+                <span className="text-2xl text-primary-foreground">/10</span>
               </div>
-              <p className="text-primary-foreground/70 text-sm mt-2">
+              <p className="text-primary-foreground text-sm mt-2">
                 Baseado em {allRatings.length} avaliações de síndicos e administradoras
               </p>
             </div>
