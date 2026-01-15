@@ -2,7 +2,7 @@ import { Award, Users, Building2, CheckCircle2 } from "lucide-react";
 
 const About = () => {
   const features = [
-    "Engenheiros especializados em sistemas prediais",
+    "Engenheiro especializado em sistemas prediais",
     "Atendimento ágil e profissional",
     "Documentação técnica completa (ART)",
     "Conformidade total com normas ABNT",
@@ -34,7 +34,7 @@ const About = () => {
               condomínios em Curitiba, Região Metropolitana e Litoral do Paraná.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Nossa equipe de engenheiros e técnicos qualificados garante
+              Nosso engenheiro e técnicos qualificados garantem
               serviços realizados com rigor técnico, seguindo todas as normas
               da ABNT e legislações municipais vigentes. Trabalhamos com
               síndicos, administradoras e gestores prediais para garantir a
