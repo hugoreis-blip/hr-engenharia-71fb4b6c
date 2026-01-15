@@ -1,6 +1,6 @@
 import { AlertTriangle, Scale, CalendarCheck, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import spdaImage from "@/assets/spda-inspection.jpg";
+import spdaImage from "@/assets/spda-pararaios.jpg";
 
 const SPDA = () => {
   const warnings = [
