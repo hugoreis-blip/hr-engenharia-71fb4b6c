@@ -1,6 +1,6 @@
 const AnnouncementBar = () => {
-  const mobileText = "⚠️ ALERTA: Proteja seu patrimônio das chuvas, agende a manutenção do para-raios.";
-  const desktopText = "⚠️ ALERTA DE JANEIRO: Período de fortes chuvas e raios em Curitiba e Região. Agende sua manutenção preventiva de Para-raios agora!";
+  const mobileText = "⚠️ ALERTA: TEMPORADA DE CHUVAS E RAIOS. Proteja seu patrimônio, agende a manutenção preventiva do para-raios agora!";
+  const desktopText = "⚠️ ALERTA: TEMPORADA DE CHUVAS E RAIOS. Proteja seu patrimônio, agende a manutenção preventiva do para-raios agora!";
 
   return (
     <div className="bg-destructive text-destructive-foreground py-2 overflow-hidden sticky top-0 z-50">
