@@ -8,7 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import estudoImg from "@/assets/estudo-viabilidade-ac.jpg";
+import estudoImg from "@/assets/estudo-viabilidade-ac.png";
 
 const AirConditioningStudy = () => {
   const benefits = [
@@ -78,7 +78,7 @@ const AirConditioningStudy = () => {
             <img
               src={estudoImg}
               alt="Infográfico — Estudo de Viabilidade para Ar-Condicionado"
-              className="w-full rounded-xl shadow-lg border border-border/50"
+              className="rounded-xl shadow-2xl w-full max-w-md mx-auto object-cover"
             />
           </div>
         </div>
