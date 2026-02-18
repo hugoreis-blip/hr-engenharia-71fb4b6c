@@ -8,6 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import estudoImg from "@/assets/estudo-viabilidade-ac.jpg";
 
 const AirConditioningStudy = () => {
   const benefits = [
@@ -53,21 +54,33 @@ const AirConditioningStudy = () => {
   ];
 
   return (
-    <section className="section-padding bg-secondary/50">
+    <section id="ar-condicionado" className="section-padding bg-secondary/50">
       <div className="container-section">
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Estudo de Viabilidade
-          </span>
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
-            Energia elétrica para climatização:{" "}
-            <span className="text-primary">seu prédio está preparado?</span>
-          </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Evite o risco de instalações irregulares, sobrecarga e incêndios.
-            Oferecemos a solução técnica e segura para o seu condomínio.
-          </p>
+        {/* Header + Image: two-column on desktop */}
+        <div className="grid lg:grid-cols-2 gap-10 items-center mb-12">
+          {/* Text */}
+          <div className="text-center lg:text-left">
+            <span className="text-accent font-semibold text-sm uppercase tracking-wider">
+              Estudo de Viabilidade
+            </span>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
+              Energia elétrica para climatização:{" "}
+              <span className="text-primary">seu prédio está preparado?</span>
+            </h2>
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              Evite o risco de instalações irregulares, sobrecarga e incêndios.
+              Oferecemos a solução técnica e segura para o seu condomínio.
+            </p>
+          </div>
+
+          {/* Infographic image */}
+          <div className="order-first lg:order-last">
+            <img
+              src={estudoImg}
+              alt="Infográfico — Estudo de Viabilidade para Ar-Condicionado"
+              className="w-full rounded-xl shadow-lg border border-border/50"
+            />
+          </div>
         </div>
 
         {/* Benefits columns */}
