@@ -6,7 +6,7 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import SPDA from "@/components/SPDA";
 import Thermography from "@/components/Thermography";
-import EVChargers from "@/components/EVChargers";
+import AirConditioningStudy from "@/components/AirConditioningStudy";
 import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
@@ -37,7 +37,7 @@ const Index = () => {
         <Services />
         <SPDA />
         <Thermography />
-        <EVChargers />
+        <AirConditioningStudy />
         <Process />
         <Testimonials />
         <ContactForm />
