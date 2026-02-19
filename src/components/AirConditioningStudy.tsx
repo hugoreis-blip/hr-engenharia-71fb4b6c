@@ -54,7 +54,7 @@ const AirConditioningStudy = () => {
   ];
 
   return (
-    <section id="ar-condicionado" className="section-padding bg-secondary/50">
+    <section id="ar-condicionado" className="section-padding bg-navy-dark text-primary-foreground relative overflow-hidden">
       <div className="container-section">
         {/* Header + Image: two-column on desktop */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-12">
@@ -63,16 +63,16 @@ const AirConditioningStudy = () => {
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Estudo de Viabilidade
             </span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary mt-2 mb-4">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mt-2 mb-4">
               Energia elétrica para climatização:{" "}
-              <span className="text-primary">seu prédio está preparado?</span>
+              <span className="text-accent">seu prédio está preparado?</span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+            <p className="text-primary-foreground/80 text-lg leading-relaxed mb-8">
               Evite o risco de instalações irregulares, sobrecarga e incêndios.
               Oferecemos a solução técnica e segura para o seu condomínio.
             </p>
 
-            <Button variant="default" size="lg" asChild>
+            <Button variant="gold" size="lg" asChild>
               <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
                 Consultar Viabilidade
               </a>
@@ -94,15 +94,15 @@ const AirConditioningStudy = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-card rounded-xl p-6 shadow-card border border-border/50 text-center group card-hover"
+              className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20 shadow-card text-center group card-hover"
             >
-              <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary transition-colors">
-                <benefit.icon className="w-7 h-7 text-primary group-hover:text-primary-foreground transition-colors" />
+              <div className="w-14 h-14 bg-accent/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-accent transition-colors">
+                <benefit.icon className="w-7 h-7 text-accent group-hover:text-accent-foreground transition-colors" />
               </div>
-              <h3 className="font-heading font-bold text-foreground text-lg mb-2">
+              <h3 className="font-heading font-bold text-primary-foreground text-lg mb-2">
                 {benefit.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-primary-foreground/70 text-sm leading-relaxed">
                 {benefit.description}
               </p>
             </div>
@@ -111,17 +111,17 @@ const AirConditioningStudy = () => {
 
         {/* Components Table */}
         <div className="max-w-3xl mx-auto">
-          <h3 className="font-heading font-bold text-primary text-xl mb-6 text-center">
+          <h3 className="font-heading font-bold text-primary-foreground text-xl mb-6 text-center">
             Componentes do Estudo de Viabilidade
           </h3>
-          <div className="bg-card rounded-xl shadow-card border border-border/50 overflow-hidden">
+          <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl border border-primary-foreground/20 overflow-hidden">
             <Table>
               <TableHeader>
-                <TableRow className="bg-primary/10">
-                  <TableHead className="font-heading font-bold text-primary">
+                <TableRow className="bg-accent/20">
+                  <TableHead className="font-heading font-bold text-accent">
                     Componente do Estudo
                   </TableHead>
-                  <TableHead className="font-heading font-bold text-primary">
+                  <TableHead className="font-heading font-bold text-accent">
                     Objetivo Principal
                   </TableHead>
                 </TableRow>
@@ -129,13 +129,13 @@ const AirConditioningStudy = () => {
               <TableBody>
                 {components.map((item, index) => (
                   <TableRow key={index}>
-                    <TableCell className="font-semibold text-foreground">
+                    <TableCell className="font-semibold text-primary-foreground">
                       <div className="flex items-center gap-3">
                         <item.icon className="w-5 h-5 text-accent flex-shrink-0" />
                         {item.name}
                       </div>
                     </TableCell>
-                    <TableCell className="text-muted-foreground text-sm">
+                    <TableCell className="text-primary-foreground/70 text-sm">
                       {item.objective}
                     </TableCell>
                   </TableRow>

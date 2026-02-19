@@ -19,8 +19,9 @@ const Header = () => {
     { name: "Início", href: "#hero" },
     { name: "Sobre", href: "#sobre" },
     { name: "Serviços", href: "#servicos" },
-    { name: "Ar-Condicionado", href: "#ar-condicionado" },
     { name: "SPDA", href: "#spda" },
+    { name: "Termografia", href: "#termografia" },
+    { name: "Ar-Condicionado", href: "#ar-condicionado" },
     { name: "Processo", href: "#processo" },
     { name: "Contato", href: "#contato" },
   ];

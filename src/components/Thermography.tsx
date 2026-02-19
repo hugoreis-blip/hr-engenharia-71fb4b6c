@@ -27,7 +27,7 @@ const Thermography = () => {
   ];
 
   return (
-    <section className="section-padding bg-background">
+    <section id="termografia" className="section-padding bg-background">
       <div className="container-section">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
