@@ -73,14 +73,8 @@ const About = () => {
               </div>
             ))}
 
-            {/* Legal Notice */}
-            <div className="bg-accent/10 border border-accent/30 rounded-xl p-6">
-              <p className="text-sm text-foreground leading-relaxed">
-                <strong className="text-accent">CNPJ:</strong> 07.516.375/0001-58
-                <br />
-                <strong className="text-accent">Endereço:</strong> Rua Oliveira Viana, 948 – Casa A, Bairro Hauer, CEP 81630-070, Curitiba/PR
-              </p>
-            </div>
+
+
           </div>
         </div>
       </div>

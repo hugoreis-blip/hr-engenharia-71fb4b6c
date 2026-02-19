@@ -8,7 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import estudoImg from "@/assets/estudo-viabilidade-ac.png";
+import acImage from "@/assets/arcond.png";
 
 const AirConditioningStudy = () => {
   const benefits = [
@@ -57,7 +57,7 @@ const AirConditioningStudy = () => {
     <section id="ar-condicionado" className="section-padding bg-secondary/50">
       <div className="container-section">
         {/* Header + Image: two-column on desktop */}
-        <div className="grid lg:grid-cols-2 gap-10 items-center mb-12">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-12">
           {/* Text */}
           <div className="text-center lg:text-left">
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
@@ -67,23 +67,29 @@ const AirConditioningStudy = () => {
               Energia elétrica para climatização:{" "}
               <span className="text-primary">seu prédio está preparado?</span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               Evite o risco de instalações irregulares, sobrecarga e incêndios.
               Oferecemos a solução técnica e segura para o seu condomínio.
             </p>
+
+            <Button variant="default" size="lg" asChild>
+              <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
+                Consultar Viabilidade
+              </a>
+            </Button>
           </div>
 
-          {/* Infographic image */}
+          {/* Photo – mobile first, desktop right */}
           <div className="order-first lg:order-last">
             <img
-              src={estudoImg}
-              alt="Infográfico — Estudo de Viabilidade para Ar-Condicionado"
+              src={acImage}
+              alt="Ar-condicionados instalados em fachada de prédio"
               className="rounded-xl shadow-2xl w-full max-w-md mx-auto object-cover"
             />
           </div>
         </div>
 
-        {/* Benefits columns */}
+        {/* Benefits – modern cards */}
         <div className="grid sm:grid-cols-3 gap-8 mb-16">
           {benefits.map((benefit, index) => (
             <div
@@ -137,15 +143,6 @@ const AirConditioningStudy = () => {
               </TableBody>
             </Table>
           </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center mt-12">
-          <Button variant="whatsapp" size="lg" asChild>
-            <a href="https://wa.me/5541999177110" target="_blank" rel="noopener noreferrer">
-              Solicitar Estudo de Viabilidade
-            </a>
-          </Button>
         </div>
       </div>
     </section>

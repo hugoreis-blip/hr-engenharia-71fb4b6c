@@ -63,18 +63,21 @@ const Thermography = () => {
               detalhado com as recomendações de manutenção preventiva.
             </p>
 
-            {/* Benefits */}
+            {/* Benefits – modern cards */}
             <div className="grid sm:grid-cols-2 gap-4 mb-8">
               {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <benefit.icon className="w-5 h-5 text-primary" />
+                <div
+                  key={index}
+                  className="bg-card rounded-xl p-4 shadow-card border border-border/50 group card-hover flex items-start gap-3"
+                >
+                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors">
+                    <benefit.icon className="w-5 h-5 text-primary group-hover:text-primary-foreground transition-colors" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground text-sm">
+                    <h4 className="font-heading font-bold text-foreground text-sm">
                       {benefit.title}
                     </h4>
-                    <p className="text-muted-foreground text-xs">
+                    <p className="text-muted-foreground text-xs leading-relaxed">
                       {benefit.description}
                     </p>
                   </div>
