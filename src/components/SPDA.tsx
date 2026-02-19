@@ -106,9 +106,11 @@ const SPDA = () => {
           {warnings.map((warning, index) => (
             <div
               key={index}
-              className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20"
+              className="bg-primary-foreground/10 backdrop-blur-sm rounded-xl p-6 border border-primary-foreground/20 shadow-card card-hover group"
             >
-              <warning.icon className="w-10 h-10 text-accent mb-4" />
+              <div className="w-12 h-12 bg-accent/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-accent transition-colors">
+                <warning.icon className="w-6 h-6 text-accent group-hover:text-accent-foreground transition-colors" />
+              </div>
               <h3 className="font-heading font-bold text-lg mb-2">
                 {warning.title}
               </h3>
