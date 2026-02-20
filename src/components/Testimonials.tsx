@@ -3,39 +3,45 @@ import { Star, Quote, Award } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Alexandre",
-      role: "Síndico Orgânico",
-      condominium: "Ed. Sunset Hills",
+      name: "Carlos",
+      role: "Síndico",
+      condominium: "Condomínio Edifício",
+      quote: "Muito obrigado pela atenção e controle das manutenções. Eu tenho tudo, não preciso nem mandar mensagem, já chega bem antes!",
       rating: 10,
     },
     {
-      name: "Vivian",
-      role: "Síndica Orgânica",
-      condominium: "Condomínio Ana Paula II",
+      name: "Isabele",
+      role: "Síndica",
+      condominium: "Residencial Álamos",
+      quote: "Os técnicos foram super pontuais, chegaram até antes. Só para agradecer o excelente atendimento!",
       rating: 10,
     },
     {
-      name: "Silvia",
+      name: "Margaret",
+      role: "Síndica",
+      condominium: "Condomínio Residencial",
+      quote: "O funcionário foi muito prestativo e atencioso. Quero agradecer o atendimento referente à reposição da lâmpada do para-raio.",
+      rating: 10,
+    },
+    {
+      name: "Dino",
+      role: "Síndico",
+      condominium: "Silva Jardins",
+      quote: "Gostei dos trabalhos. Muito grato! Nos falamos na próxima manutenção.",
+      rating: 10,
+    },
+    {
+      name: "Cliente",
+      role: "Síndica",
+      condominium: "Ed. Suindara",
+      quote: "Muito obrigada pelo atendimento em cima da hora. Por favor me encaminhe o boleto e a nota fiscal para eu pagar hoje!",
+      rating: 10,
+    },
+    {
+      name: "Cliente",
       role: "Administradora",
-      condominium: "Inconal Administradora",
-      rating: 10,
-    },
-    {
-      name: "Francisco",
-      role: "Síndico Orgânico",
-      condominium: "Edifício Saint Maurice",
-      rating: 10,
-    },
-    {
-      name: "Renato Lopes",
-      role: "Síndico Orgânico",
-      condominium: "Edifício Marques do Paraná",
-      rating: 10,
-    },
-    {
-      name: "Roberta Antunes de Morais",
-      role: "Síndica Profissional",
-      condominium: "Plymouth Hills",
+      condominium: "Condomínio Parceiro",
+      quote: "Eu que agradeço o atendimento e profissionalismo de sempre. Pode deixar que mais tarde eu respondo sim o formulário.",
       rating: 10,
     },
   ];
@@ -71,12 +77,11 @@ const Testimonials = () => {
     "Residencial Ilha de Capri",
   ];
 
-  // Calculate average rating from all responses
   const allRatings = [10, 10, 10, 8, 10, 10, 9, 10, 10, 9, 10, 9, 10, 10, 10, 10, 9, 10, 10, 8, 10, 10, 10, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
   const averageRating = (allRatings.reduce((a, b) => a + b, 0) / allRatings.length).toFixed(1);
 
   return (
-    <section className="section-padding bg-secondary/50">
+    <section id="depoimentos" className="section-padding bg-secondary/50">
       <div className="container-section">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
@@ -87,7 +92,7 @@ const Testimonials = () => {
             O Que Nossos Clientes Dizem
           </h2>
           <p className="text-muted-foreground text-lg">
-            A satisfação dos nossos clientes é o nosso maior reconhecimento.
+            Feedbacks reais de síndicos e administradoras que confiam no nosso trabalho.
           </p>
         </div>
 
@@ -134,6 +139,11 @@ const Testimonials = () => {
                 </div>
                 <span className="text-accent font-bold text-lg">{testimonial.rating}/10</span>
               </div>
+
+              {/* Quote Text */}
+              <p className="text-foreground/80 text-sm leading-relaxed mb-4 italic">
+                "{testimonial.quote}"
+              </p>
 
               {/* Author */}
               <div className="border-t border-border pt-4">

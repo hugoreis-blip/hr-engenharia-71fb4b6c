@@ -12,7 +12,7 @@ const About = () => {
 
   const stats = [
     { icon: Building2, value: "500+", label: "Condomínios Atendidos" },
-    { icon: Users, value: "15+", label: "Anos de Experiência" },
+    { icon: Users, value: "20+", label: "Anos de Experiência" },
     { icon: Award, value: "100%", label: "Conformidade ABNT" },
   ];
 
@@ -29,7 +29,7 @@ const About = () => {
               Especialistas em Engenharia Elétrica para Condomínios
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              A <strong className="text-foreground">HR Engenharia Elétrica</strong> atua há mais de 15 anos
+              A <strong className="text-foreground">HR Engenharia Elétrica</strong> atua desde 2005, somando mais de 20 anos de experiência
               oferecendo soluções completas em sistemas elétricos para
               condomínios em Curitiba, Região Metropolitana e Litoral do Paraná.
             </p>
