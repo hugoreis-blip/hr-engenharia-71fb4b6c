@@ -62,8 +62,8 @@ const Hero = () => {
             <div className="flex items-center gap-3 bg-primary-foreground/10 backdrop-blur-sm rounded-lg px-4 py-3">
               <Zap className="w-6 h-6 text-accent flex-shrink-0" />
               <div>
-                <p className="text-sm font-semibold text-primary-foreground">+15 Anos</p>
-                <p className="text-xs text-primary-foreground/70">Experiência no mercado</p>
+                <p className="text-sm font-semibold text-primary-foreground">+20 Anos</p>
+                <p className="text-xs text-primary-foreground/70">Experiência desde 2005</p>
               </div>
             </div>
           </div>
