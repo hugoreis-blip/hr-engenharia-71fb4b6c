@@ -33,7 +33,7 @@ const Footer = () => {
               className="h-12 mb-6 brightness-0 invert"
             />
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
-              Especialistas em engenharia elétrica para condomínios. Mais de 15
+              Especialistas em engenharia elétrica para condomínios desde 2005. Mais de 20
               anos garantindo segurança e conformidade.
             </p>
             <p className="text-primary-foreground/50 text-xs">
