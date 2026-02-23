@@ -31,7 +31,7 @@ const Thermography = () => {
       <div className="container-section">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
-          <div className="relative order-2 lg:order-1">
+          <div className="relative order-first lg:order-1">
             <img
               src={thermographyImage}
               alt="Termografia predial"
@@ -43,7 +43,7 @@ const Thermography = () => {
           </div>
 
           {/* Content */}
-          <div className="order-1 lg:order-2">
+          <div className="order-last lg:order-2">
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Termografia
             </span>
