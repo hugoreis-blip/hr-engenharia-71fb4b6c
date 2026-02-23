@@ -46,7 +46,7 @@ const SPDA = () => {
       <div className="container-section relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Content */}
-          <div>
+          <div className="order-last lg:order-none">
             <span className="text-accent font-semibold text-sm uppercase tracking-wider">
               Para-Raios (SPDA)
             </span>
@@ -88,7 +88,7 @@ const SPDA = () => {
           </div>
 
           {/* Image */}
-          <div className="relative">
+          <div className="relative order-first lg:order-none">
             <img
               src={spdaImage}
               alt="Inspeção de SPDA"
