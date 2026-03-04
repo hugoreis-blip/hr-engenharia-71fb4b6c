@@ -44,28 +44,28 @@ const Footer = () => {
                 href="https://www.instagram.com/hrengenhariaeletrica/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] hover:opacity-80 transition-opacity"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5 text-white" />
               </a>
               <a
                 href="https://www.linkedin.com/company/hr-engenharia-elétrica"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0A66C2] hover:opacity-80 transition-opacity"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5 text-white" />
               </a>
               <a
                 href="https://wa.me/5541999177110"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#25D366] hover:opacity-80 transition-opacity"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-5 h-5" />
+                <MessageCircle className="w-5 h-5 text-white" />
               </a>
             </div>
           </div>
