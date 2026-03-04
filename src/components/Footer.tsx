@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram, Linkedin, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -36,9 +36,38 @@ const Footer = () => {
               Especialistas em engenharia elétrica para condomínios desde 2005. Mais de 20
               anos garantindo segurança e conformidade.
             </p>
-            <p className="text-primary-foreground/50 text-xs">
+            <p className="text-primary-foreground/50 text-xs mb-5">
               CNPJ: 07.516.375/0001-58
             </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.instagram.com/hrengenhariaeletrica/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/hr-engenharia-elétrica"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://wa.me/5541999177110"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
