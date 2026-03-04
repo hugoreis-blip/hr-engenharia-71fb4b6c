@@ -66,16 +66,16 @@ const Footer = () => {
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] hover:opacity-80 transition-opacity"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5 text-white" />
+                <InstagramIcon />
               </a>
               <a
                 href="https://www.linkedin.com/company/hr-engenharia-elétrica"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0A66C2] hover:opacity-80 transition-opacity"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#0077B5] hover:opacity-80 transition-opacity"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5 text-white" />
+                <LinkedInIcon />
               </a>
               <a
                 href="https://wa.me/5541999177110"
@@ -84,7 +84,7 @@ const Footer = () => {
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#25D366] hover:opacity-80 transition-opacity"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-5 h-5 text-white" />
+                <WhatsAppIcon />
               </a>
             </div>
           </div>
